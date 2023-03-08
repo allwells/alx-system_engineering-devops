@@ -1,2 +1,2 @@
-#!/bin/bash
-file --mime-type -m school.mgc * | grep -E '^\w+: .*SCHOOL'
+0 string SCHOOL School data
+!:mime School
