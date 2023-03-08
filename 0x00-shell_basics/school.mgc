@@ -1,2 +1,2 @@
 #!/bin/bash
-file -b --mime-type -k * | grep -E '^\w+: .*SCHOOL'
+file --mime-type -m school.mgc * | grep -E '^\w+: .*SCHOOL'
